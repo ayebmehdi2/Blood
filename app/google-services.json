@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162927795841",
+    "firebase_url": "https://finalbloodapp.firebaseio.com",
+    "project_id": "finalbloodapp",
+    "storage_bucket": "finalbloodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162927795841:android:10978f853a8f3971",
+        "android_client_info": {
+          "package_name": "com.kareemAndMahmoud.bloodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162927795841-p57f50usdad2uehsmqmu5pm0pj39uvm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kareemAndMahmoud.bloodapp",
+            "certificate_hash": "0b88850bfed567bfbb5f541a8ec36c5a90431750"
+          }
+        },
+        {
+          "client_id": "162927795841-pmt8igf8a60qt5ecuk4bicg87gif8d9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0YXn_olwSZG4BKLRYZKm1O0QJaMwoBo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162927795841-pmt8igf8a60qt5ecuk4bicg87gif8d9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

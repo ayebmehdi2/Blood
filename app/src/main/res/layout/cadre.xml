@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gra_shodow"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="BLOOD"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="DONATE"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:id="@+id/profile"
+                android:src="@drawable/person"
+                android:layout_width="40dp"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/main_search"
+                android:padding="8dp"
+                android:src="@drawable/search"
+                android:layout_width="40dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FAFAFA">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="49"
+                android:text="CHATS"
+                android:textSize="14sp"
+                android:textColor="#616161"
+                android:id="@+id/chat"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_width="1dp"
+                android:background="#E1E1E1"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_weight="49"
+                android:text="GROUPS"
+                android:textColor="#616161"
+                android:id="@+id/chat_gr"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:orientation="horizontal"
+            android:background="#FAFAFA">
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="0dp"
+                android:id="@+id/cha"
+                android:layout_weight="4"
+                android:background="@drawable/gra"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="0dp"
+                android:id="@+id/cha_gr"
+                android:layout_weight="4"
+                android:visibility="invisible"
+                android:background="@drawable/gra"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <androidx.viewpager.widget.ViewPager
+               android:layout_marginTop="-6dp"
+               android:id="@+id/home_pager"
+               android:background="@color/back"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+
+       </RelativeLayout>
+
+    </LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+<ProgressBar
+    android:id="@+id/prg"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_centerHorizontal="true"
+    android:visibility="gone" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:background="#F5F5F5"
+    android:id="@+id/rec"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/empty"
+    android:visibility="visible"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/ic_empty"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <TextView
+        android:id="@+id/problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No found data"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+</RelativeLayout>
+

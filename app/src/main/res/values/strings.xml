@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Blood donation</string>
+    <string name="search_sommone">Search Sommone</string>
+    <string name="empty">Empty</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="accept">Accept</string>
+    <string name="refuse">Refuse</string>
+    <string name="group_name">Group Name</string>
+    <string name="a">---</string>
+
+    <string-array name="blood_type">
+        <item>A+</item>
+        <item>A-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+</resources>
